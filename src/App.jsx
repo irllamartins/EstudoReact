@@ -8,6 +8,7 @@ import Card from './components/layout/Card';
 import Familia from './components/basicos/Familia';
 import ListaAluno from './components/repeticao/ListaAluno';
 import ListaProdutos from './components/repeticao/ListaProdutos';
+import ParOuImpar from './components/condicional/ParOuImpar';
 import './App.css'
 
 export default ()=> {
@@ -15,6 +16,9 @@ export default ()=> {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="#8 - Rederização condicional" color="#430">
+                    <ParOuImpar numero={10}></ParOuImpar>
+                </Card>
                 <Card titulo="#7 - Repetição(desafio)" color="#030">
                     <ListaProdutos></ListaProdutos>
                 </Card>
