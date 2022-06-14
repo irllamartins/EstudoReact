@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Usuarioinfo from './components/condicional/Usuarioinfo'
 import Fragmento from './components/basicos/Fragmento'
 import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro'
@@ -18,6 +19,8 @@ export default ()=> {
             <div className="Cards">
                 <Card titulo="#8 - Rederização condicional" color="#430">
                     <ParOuImpar numero={10}></ParOuImpar>
+                    <Usuarioinfo usuario={{nome:"Joao"}}></Usuarioinfo>
+                 
                 </Card>
                 <Card titulo="#7 - Repetição(desafio)" color="#030">
                     <ListaProdutos></ListaProdutos>
