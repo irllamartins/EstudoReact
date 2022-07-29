@@ -6,7 +6,7 @@ export default props =>{
     const min = 20
     const max = 50
     const gerarIdade = () =>parseInt(Math.random()*(max-min))+min
-    const gerarNerd = () => Math.radom() > 0.5 
+    const gerarNerd = () => Math.random()<0.5 
     return(
         <div>
             <div>Filho</div>

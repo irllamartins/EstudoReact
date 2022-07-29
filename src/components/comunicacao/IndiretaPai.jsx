@@ -5,6 +5,7 @@ export default props =>{
     const [nome,setNome] =useState('?')
     const [idade,setIdade] =useState(0)
     const [nerd,setNerd] =useState('?')
+    
     function fonecerInformacoes(nome,idade,nerd){
         setNome(nome)
         setIdade(idade)
